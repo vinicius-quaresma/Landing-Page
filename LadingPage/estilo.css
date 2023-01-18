@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container{
+    background-color: #09AAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.container span{
+    font-size: 40px;
+    color: white;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 30px;
+}
+main .banner{
+    width: 100vw;
+    height: 500px;
+    background-image: url('img/montanhas.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    
+}
+.banner_headline{
+    height: 500px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 20px #bcc4c9;
+}
+.banner_headline h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.banner_headline p{
+    font-size: 25px;
+}
+main .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn a{
+    margin-right: 20px;
+    padding: 20px 50px;
+    background-color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn .azul{
+    background-color: #09AAFA;
+}
+.btn .branco{
+    background-color: white;
+    color: #09AAFA;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer span{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 30px;
+}
+footer div{
+    background-color: rgb(255, 255, 255);
+    height: 212px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
